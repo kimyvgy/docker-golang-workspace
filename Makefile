@@ -16,4 +16,4 @@ push:
 	; done
 
 clean:
-	docker images $(IMAGE) | tail -n +2 | awk '{ print $1":"$2 }' | xargs docker image rm
+	docker images $(IMAGE) | tail -n +2 | awk '{ print $$1":"$$2 }' | xargs docker image rm
