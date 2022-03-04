@@ -40,3 +40,7 @@ make build
 # build for one:
 make build TAG=1.17-alpine
 ```
+
+## References
+- https://github.com/kimyvgy/docker-gowatch
+- https://www.npmjs.com/package/nodemon
