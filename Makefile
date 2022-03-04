@@ -1,4 +1,4 @@
-IMAGE := kimyvgy/golang-workspace
+IMAGE := kimyvgy/gowatch
 TAG ?= 1.17-alpine 1.16-alpine 1.15-alpine 1.14-alpine 1.13-alpine
 
 .PHONY: build
